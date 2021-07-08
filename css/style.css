@@ -1,0 +1,118 @@
+body{
+overflow-x:hidden;
+height: 2000px;
+background-color:#ddd;
+margin: 0;
+
+}
+
+
+#contentbox{
+	position:relative;
+	margin: 0 auto;	
+	border:solid 1px black;
+	background-color:#FFFFFF;
+	width:70%;
+	height:50%;
+}
+
+header h1{
+background-color:#77FFFF;
+color:#6666CC;
+margin: 0;
+}
+
+.center{
+	margin: 0 auto;
+
+}
+
+.search-form{
+    position:absolute;
+    top:5px;
+    right:20px;
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+}
+.slider{
+	width:70%;
+	margin: 0 auto;
+}
+.slick01{
+	margin: 0 auto;
+	width:80%;
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    position:relative;
+    right:40px;
+    
+}
+
+.slick-dots{
+	position:relative;
+	top:20px;
+	right:20px;
+}
+
+.slick-arrow{
+	z-index:2;
+    width:60px;
+    height:60px;
+}
+/* 矢印位置変更
+.slick-prev {
+    left: 0;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 0;
+}
+*/
+
+#topbutton{
+	font-size: 1.5vw; /* 文字サイズ可変 */
+	position: fixed;
+   	bottom: 15px;
+   	right: 5px;
+   	width: 8em;  	
+}
+
+nav{
+border-bottom: 1px solid #ccc;
+}
+nav ul{
+display: table;
+margin: 0 auto;
+padding: 0;
+width: 80%;
+text-align: center;
+}
+nav ul li{
+display: table-cell;
+min-width: 50px;
+border-right: 1px solid #ccc;
+}
+nav ul li:first-child{
+border-left: 1px solid #ccc;
+}
+nav ul li a{
+display: block;
+width: 100%;
+padding: 10px 0;
+text-decoration: none;
+}
+nav ul li a:hover{
+background-color:#F8E750;
+border-bottom: 5px solid #F8E750;
+}
+nav ul li.current a{
+border-bottom: 5px solid #00B0F0;
+color: #00B0F0;
+}
+
